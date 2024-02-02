@@ -1,0 +1,14 @@
+import React from 'react';
+import TextField from '@mui/material/TextField';
+import { styled } from '@mui/system';
+
+const CustomTextField = styled(TextField)({
+  maxWidth: 200,
+  '& input': {
+    fontSize: 14,
+    px: 1,
+    py: 0.5,
+  }
+});
+
+export default CustomTextField;
